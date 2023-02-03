@@ -266,7 +266,7 @@ CÓDIGO DE CONDUCTA
 <h2 id="code-of-conduct">Código de conducta</h2>
 
 <p>
-Todas las personas que participen en las actividades de Carpentries deben guiarse por el <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Código de Conducta</a>. Ese documento también indica los pasos a seguir en el caso de que haya un incidente.
+Todas las personas que participen en las actividades de Carpentries deben guiarse por el <a href="https://carpentrieshandbook.readthedocs.io/es/latest/topic_folders/policies/code-of-conduct.html">Código de Conducta</a>. Ese documento también indica los pasos a seguir en el caso de que haya un incidente.
 </p>
 
 <p class="text-center">
