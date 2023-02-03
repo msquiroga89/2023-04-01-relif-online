@@ -347,7 +347,7 @@ of code below the Schedule `<h2>` header below with
 `{% include custom-schedule.html %}`.
 {% endcomment %}
 
-<h2 id="schedule">Schedule</h2>
+<h2 id="schedule">Cronograma</h2>
 
 {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}
@@ -385,6 +385,7 @@ please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
 
+</br>
 <h2 id="setup">Instalación y configuración</h2>
 
 <p>
