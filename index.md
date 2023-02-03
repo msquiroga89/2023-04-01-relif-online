@@ -385,7 +385,8 @@ please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
 
-</br>
+<hr/>
+
 <h2 id="setup">Instalación y configuración</h2>
 
 <p>
