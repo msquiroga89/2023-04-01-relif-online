@@ -172,7 +172,7 @@ Modify the block below if there are any special requirements.
     Participants must bring a laptop with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% else %}
-    Quienes participen deben tener acceso a una computadora con Mac, Linux o Windows como sistema operativo (no tablets, Chromebook, etc.) tdonde tengan permisos de administrador para instalar el software necesario.
+    Quienes participen deben tener acceso a una computadora con Mac, Linux o Windows como sistema operativo (no tablets, Chromebook, etc.) donde tengan permisos de administrador para instalar el software necesario.
   {% endif %}
   Deben instalar una serie de paquetes (listados <a href="#setup">más abajo</a>).
 </p>
