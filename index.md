@@ -395,9 +395,8 @@ please preview your site before committing, and make sure to run
   Data Carpentry
   {% elsif site.carpentry == "lc" %}
   Library Carpentry
-  {% endif %}
-  ,
-  vas a necesitar acceso a software indicado en la siguiente sección.
+  {% endif %},
+  vas a necesitar acceso al software indicado en la siguiente sección.
   Además, vas a necesitar un navegador actualizado.
 </p>
 <p>
