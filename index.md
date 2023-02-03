@@ -385,10 +385,10 @@ please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
 
-<h2 id="setup">Setup</h2>
+<h2 id="setup">Instalación y configuración</h2>
 
 <p>
-  To participate in a
+  Para participar de un taller de
   {% if site.carpentry == "swc" %}
   Software Carpentry
   {% elsif site.carpentry == "dc" %}
@@ -396,14 +396,13 @@ please preview your site before committing, and make sure to run
   {% elsif site.carpentry == "lc" %}
   Library Carpentry
   {% endif %}
-  workshop,
-  you will need access to software as described below.
-  In addition, you will need an up-to-date web browser.
+  ,
+  vas a necesitar acceso a software indicado en la siguiente sección.
+  Además, vas a necesitar un navegador actualizado.
 </p>
 <p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+  Mantenemos una lista de problemas comunes que pueden ocurrar durante la instalación como referencia para las instructoras e instructores que pueden ser útiles en la
+  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">página Wiki de Problemas y Soluciones de Configuración</a>.
 </p>
 
 {% comment %}
