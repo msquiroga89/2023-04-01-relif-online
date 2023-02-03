@@ -144,8 +144,7 @@ address.
 </p>
 {% elsif online == "true_private" %}
 <p id="where">
-  <strong>Where:</strong> This training will take place online.
-  The instructors will provide you with the information you will need to connect to this meeting.
+  <strong>Dónde:</strong> Este taller se realizará de forma virtual. Las instructoras te enviarán la información necesaria para conectarte a esta reunión.
 </p>
 {% endif %}
 
@@ -173,10 +172,9 @@ Modify the block below if there are any special requirements.
     Participants must bring a laptop with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% else %}
-    Participants must have access to a computer with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+    Quienes participen deben tener acceso a una computadora con Mac, Linux o Windows como sistema operativo (no tablets, Chromebook, etc.) tdonde tengan permisos de administrador para instalar el software necesario.
   {% endif %}
-  They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  Deben instalar una serie de paquetes (listados <a href="#setup">más abajo</a>).
 </p>
 
 {% comment %}
@@ -186,7 +184,7 @@ Modify the block below if there are any barriers to accessibility or
 special instructions.
 {% endcomment %}
 <p id="accessibility">
-  <strong>Accessibility:</strong>
+  <strong>Accesibilidad:</strong>
 {% if online == "false" %}
   We are committed to making this workshop
   accessible to everybody.  For workshops at a physical location, the workshop organizers have checked that:
@@ -204,9 +202,7 @@ special instructions.
   attempt to provide them.
 </p>
 {% else %}
-  We are dedicated to providing a positive and accessible learning environment for all. Please
-  notify the instructors in advance of the workshop if you require any accommodations or if there is
-  anything we can do to make this workshop more accessible to you.
+  Estamos dedicadas a ofrecer un entorno de aprendizaje positivo y accesible para todas las personas. Por favor, notificá a las instructoras con anticipación si necesitás algún tipo de acomodación o si hay algo que podemos hacer para que este taller sea más accesible para vos.
 </p>
 {% endif %}
 
@@ -216,12 +212,12 @@ CONTACT EMAIL ADDRESS
 Display the contact email address set in the configuration file.
 {% endcomment %}
 <p id="contact">
-  <strong>Contact:</strong>
-  Please email
+  <strong>Contacto:</strong>
+  Por favor, enviá un correo a 
   {% if page.email %}
   {% for email in page.email %}
   {% if forloop.last and page.email.size > 1 %}
-  or
+  o
   {% else %}
   {% unless forloop.first %}
   ,
@@ -232,13 +228,13 @@ Display the contact email address set in the configuration file.
   {% else %}
   to-be-announced
   {% endif %}
-  for more information.
+  para más información.
 </p>
 
 <p id="roles">
   <strong>Roles:</strong>
-  To learn more about the roles at the workshop (who will be doing what),
-  refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
+  Para aprender más sobre los roles en el taller (quién hará cada cosa),
+  podés leer <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">el FAQ de nuestro taller</a>.
 </p>
 
 {% comment %}
@@ -265,17 +261,17 @@ Edit the text to match who can attend the workshop. For instance:
 <hr/>
 
 {% comment%}
-CODE OF CONDUCT
+CÓDIGO DE CONDUCTA
 {% endcomment %}
-<h2 id="code-of-conduct">Code of Conduct</h2>
+<h2 id="code-of-conduct">Código de conducta</h2>
 
 <p>
-Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
+Todas las personas que participen en las actividades de Carpentries deben guiarse por el <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Código de Conducta</a>. Ese documento también indica los pasos a seguir en el caso de que haya un incidente.
 </p>
 
 <p class="text-center">
   <a href="https://goo.gl/forms/KoUfO53Za3apOuOK2">
-    <button type="button" class="btn btn-info">Report a Code of Conduct Incident</button>
+    <button type="button" class="btn btn-info">Reportá un incidente</button>
   </a>
 </p>
 <hr/>
@@ -307,11 +303,11 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
-<h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
+<h2 id="surveys">Encuestas</h2>
+<p>Por favor, completá las encuestas pre y post taller.</p>
 {% if site.carpentry == "incubator" %}
-<p><a href="{{ site.incubator_pre_survey }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.incubator_post_survey }}">Post-workshop Survey</a></p>
+<p><a href="{{ site.incubator_pre_survey }}">Encuesta pre-taller</a></p>
+<p><a href="{{ site.incubator_post_survey }}">Encuesta post-taller</a></p>
 {% elsif site.incubator_pre_survey or site.incubator_post_survey %}
 <div class="alert alert-danger">
 WARNING: you have defined custom pre- and/or post-survey links for
@@ -322,8 +318,8 @@ in `_config.yml` or, if this workshop is teaching a lesson in the Incubator,
 change the value of `carpentry` to `incubator`.
 </div>
 {% else %}
-<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Encuesta pre-taller</a></p>
+<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Encuesta post-taller</a></p>
 {% endif %}
 
 <hr/>
