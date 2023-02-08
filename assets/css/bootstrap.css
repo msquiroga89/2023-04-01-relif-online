@@ -5038,7 +5038,9 @@ a.badge:focus {
   font-color: #ffffff;
   background-color: #CC1474;
 }
-.jumbotron h1,
+.jumbotron h1 {
+    font-color: #ffffff;
+}
 .jumbotron .h1 {
   font-color: #ffffff;
 }
