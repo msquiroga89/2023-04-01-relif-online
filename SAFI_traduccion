@@ -1,0 +1,16 @@
+| Variable             | Traducción              | Descripción                                                                                                                          |
+|----------------------|-------------------------|------------------------------------------|
+| key_id               | clave_id                | Una ID propia para cada observación.                                                                                                 |
+| village              | pueblo                  | Nombre del pueblo.                                                                                                                   |
+| interview_date       | fecha_entrevista        | Fecha de la entrevista.                                                                                                              |
+| no_members           | num_miembros            | ¿Cuántas personas viven en este hogar?                                                                                               |
+| years_liv            | años_viviendo           | ¿Hace cuántos años vivís en este pueblo o en un pueblo vecino?                                                                       |
+| respondent_wall_type | tipo_pared_entrevistado | ¿Qué tipo de paredes tiene tu casa?                                                                                                  |
+| rooms                | habitaciones            | ¿Cuántas habitaciones de la casa principal son usadas para dormir?                                                                   |
+| memb_assoc           | miembro_asociación      | ¿Sos miembro de una asociación de irrigación?                                                                                        |
+| affect_conflicts     | afect_confl             | ¿Has sido afectado por conflictos con otros irrigadores en el área?                                                                  |
+| liv_count            | cabeza_ganado           | Cantidad de cabezas de ganado poseídas.                                                                                              |
+| items_owned          | items_pos               | ¿Cuáles de los siguientes ítems hay en el hogar? (lista)                                                                             |
+| no_meals             | num_comidas             | ¿Cuántas comidas comen por día las personas de tu hogar?                                                                             |
+| months_lack_food     | meses_sin_comida        | Indicá qué meses en los últimos 12 meses te has encontrado en laa situación de no tener comida suficiente para alimentar a tu hogar. |
+| instanceID           | ID_instancia            | Identificador único para cada envío de formulario.                                                                                   |
